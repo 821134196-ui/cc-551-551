@@ -13,3 +13,15 @@ build/
 轨迹/
 录屏/
 视频/
+
+# PHP / Laravel 本地运行时（保留 .tools 静态二进制需另行处理）
+app/vendor/
+app/node_modules/
+app/public/build/
+app/database/database.sqlite
+app/storage/app/attachments/*
+!app/storage/app/attachments/.gitkeep
+.tools/composer/
+.tools/*.tar.gz
+.tools/spc
+
